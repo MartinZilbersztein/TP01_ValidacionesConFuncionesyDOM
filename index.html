@@ -10,14 +10,18 @@
     <form id="formulario">
         <p id="alerta"></p>
         <p>Ingrese la nota de Matemática</p>
-        <input type="text" id="notaMatematica" oninput="onChange(id)">
+        <input type="text" id="Matematica" class="nota" name="materia" oninput="onChange(id)">
         <p>Ingrese la nota de Lengua</p>
-        <input type="text" id="notaLengua" oninput="onChange(id)">
+        <input type="text" id="Lengua" class="nota" name="materia" oninput="onChange(id)">
         <p>Ingrese la nota de E.F.S.I.</p>
-        <input type="text" id="notaEFSI" oninput="onChange(id)"><br>
+        <input type="text" id="EFSI" class="nota" name="materia" oninput="onChange(id)"><br>
         <input type="submit" value="Calcular promedio">
         <input type="submit" value="Materia con mayor nota">
     </form>
+    <div>
+        <p id="promedio"></p>
+        <p id="mayorNota"></p>
+    </div>
     <script src="codigo.js"></script>
 </body>
 </html>
