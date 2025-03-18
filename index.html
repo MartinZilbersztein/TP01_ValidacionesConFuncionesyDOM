@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" src="style.css">
+</head>
+<body>
+    <form id="formulario">
+        <p id="alerta"></p>
+        <p>Ingrese la nota de Matemática</p>
+        <input type="text" id="notaMatematica" oninput="onChange(id)">
+        <p>Ingrese la nota de Lengua</p>
+        <input type="text" id="notaLengua" oninput="onChange(id)">
+        <p>Ingrese la nota de E.F.S.I.</p>
+        <input type="text" id="notaEFSI" oninput="onChange(id)"><br>
+        <input type="submit" value="Calcular promedio">
+        <input type="submit" value="Materia con mayor nota">
+    </form>
+    <script src="codigo.js"></script>
+</body>
+</html>
